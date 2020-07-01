@@ -35,15 +35,24 @@
   {% else %}
   <meta content="{{ site.description }}" property="og:description" />
   {% endif %} {% if page.url %}
-  <meta content="{{ site.url }}{{site.baseurl}}{{ page.url }}" property="og:url" />
+  <meta
+    content="{{ site.url }}{{site.baseurl}}{{ page.url }}"
+    property="og:url"
+  />
   {% endif %} {% if page.date %}
   <meta
     content="{{ page.date | date_to_xmlschema }}"
     property="article:published_time"
   />
-  <meta content="{{ site.url }}{{site.baseurl}}/about/" property="article:author" />
+  <meta
+    content="{{ site.url }}{{site.baseurl}}/about/"
+    property="article:author"
+  />
   {% endif %} {% if page.thumbnail %}
-  <meta content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}" property="og:image" />
+  <meta
+    content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}"
+    property="og:image"
+  />
   {% endif %} {% if page.categories %} {% for category in page.categories
   limit:1 %}
   <meta content="{{ category }}" property="article:section" />
@@ -60,10 +69,11 @@
   <meta name="twitter:title" content="{{ page.title }}" />
   {% else %}
   <meta name="twitter:title" content="{{ site.title }}" />
-  {% endif %}
-
-  {% if page.url %}
-  <meta name="twitter:url" content="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
+  {% endif %} {% if page.url %}
+  <meta
+    name="twitter:url"
+    content="{{ site.url }}{{site.baseurl}}{{ page.url }}"
+  />
   {% endif %} {% if page.summary %}
   <meta name="twitter:description" content="{{ page.summary }}" />
   {% else %}
@@ -75,7 +85,10 @@
   />
   {% endif %}
 
-  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" />
+  <link
+    rel="stylesheet"
+    href="{{site.url}}{{site.baseurl}}/assets/css/main.css"
+  />
   <!-- <link rel="stylesheet" href="/assets/css/custom-style.css" /> -->
   <link
     rel="stylesheet"
@@ -147,8 +160,8 @@
     crossorigin="anonymous"
   ></script>
 
-  <script>
-    (function(d, h, m) {
+  <!-- <script>
+    (function (d, h, m) {
       var js,
         fjs = d.getElementsByTagName(h)[0];
       if (d.getElementById(m)) {
@@ -156,18 +169,18 @@
       }
       js = d.createElement(h);
       js.id = m;
-      js.onload = function() {
+      js.onload = function () {
         window.makerWidgetComInit({
           position: "left",
-          widget: "ofeeof264otl2l5g-zspk40eq2gaomj2n-higi2qphmveubksi"
+          widget: "ofeeof264otl2l5g-zspk40eq2gaomj2n-higi2qphmveubksi",
         });
       };
       js.src = "https://makerwidget.com/js/embed.js";
       fjs.parentNode.insertBefore(js, fjs);
     })(document, "script", "dhm");
-  </script>
+  </script> -->
   <!-- buy me a coffeee -->
-  <script
+  <!-- <script
     data-name="BMC-Widget"
     src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
     data-id="sujaykundu"
@@ -177,5 +190,5 @@
     data-position="right"
     data-x_margin="10"
     data-y_margin="10"
-  ></script>
+  ></script> -->
 </head>

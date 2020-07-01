@@ -46,13 +46,14 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 - CI/CD Support using [Travis CI](https://sujaykundu.com/blog/posts/deploy-jekyll-blog-using-github-pages-and-travis-ci/), Buddy , Circle CI
 
 #### Jekyll Admin
+
 You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
 ![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
 #### Search Configuration
 
-Replace *_algolia_api_key* content with your algolia's app Admin API key and run to index blog posts:
+Replace _\_algolia_api_key_ content with your algolia's app Admin API key and run to index blog posts:
 
 `jekyll algolia`
 
@@ -60,7 +61,7 @@ For more info : [Docs here](https://sujaykundu.com/jekyll/2020/06/18/how-to-add-
 
 ## Release Changes :
 
-You can check out the latest changes [here](https://www.buymeacoffee.com/p/57109)
+<!-- You can check out the latest changes [here](https://www.buymeacoffee.com/p/57109) -->
 
 ## Using Docker :
 
@@ -102,16 +103,16 @@ This project exists thanks to all the people who contribute.
 
 Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
 
-- 1.Fork it [http://github.com/sujaykundu777/devlopr-jekyll/fork](http://github.com/sujaykundu777/devlopr-jekyll/fork )
+- 1.Fork it [http://github.com/sujaykundu777/devlopr-jekyll/fork](http://github.com/sujaykundu777/devlopr-jekyll/fork)
 
 - 2.Create your feature branch
-`git checkout -b my-new-feature`
+  `git checkout -b my-new-feature`
 
 - 3.Commit your changes
-`git commit -am 'Add some feature'`
+  `git commit -am 'Add some feature'`
 
 - 4.Push to the branch
-`git push origin my-new-feature`
+  `git push origin my-new-feature`
 
 - 5.Create new Pull Request
 
