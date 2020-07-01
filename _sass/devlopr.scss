@@ -427,10 +427,11 @@ header {
 /* jumbotron */
 .jumbotron {
     background-color: var(--main-background-color) !important;
-    background-image: url('../assets/img/blog-cover.jpg');
+    background-image: url('/assets/img/blog-cover.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 /* pagination */
@@ -455,14 +456,14 @@ header {
 }
 
 .jumbotron-heading {
-    color: #111;
+    color: #fff;
     font-size: 35px;
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: #111 !important;
+    color: #fff !important;
 }
 
 .fa {
