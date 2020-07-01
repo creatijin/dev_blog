@@ -2,11 +2,14 @@
 layout: default
 ---
 
-<div class="row ">
+<div class="row">
   <div class="col-lg-4 offset-md-1">
     <div class="card" id="profile-card">
       <a href="/">
-        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
+        <img
+          src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}"
+          class="profile-img"
+        />
       </a>
       <h1 class="profile-name">{{ site.title }}</h1>
       <p class="profile-bio">{{ site.subtitle }}</p>
@@ -100,11 +103,11 @@ layout: default
     </div>
 
     {% if site.wakatime_username %}
-    <div class="card">
+    <!-- <div class="card">
       <h1>Coding Activity</h1>
 
       {%- include coding_activity.html -%}
-    </div>
+    </div> -->
     {% endif %}
   </div>
   <div class="col-lg-7">
