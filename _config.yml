@@ -26,11 +26,11 @@ urls:
 
 author_logo: profile.png
 author: Creatjin
-author_bio: Hi, :D
+author_bio: 삽질로부터 성장하는 X찮은 개발 일기 :D
 author_email: "newlex0124@gmail.com"
-author_location: korea
+author_location: Korea, Seoul
 author_website_url: "https://creatijin0124.netlify.app"
-typewrite-text: Creatijin Dev Blog
+typewrite-text: Creatijin Dev Blog 삽질로부터 성장하는 X찮은 개발 일기 :D
 
 # author_work_experiences:
 #   - company_name: Google
@@ -112,8 +112,8 @@ algolia:
   search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
 
 # pagination of posts
-paginate: 4
-per_page: 4
+paginate: 6
+per_page: 6
 paginate_path: "/blog/page/:num/"
 
 # minify
@@ -124,13 +124,13 @@ paginate_path: "/blog/page/:num/"
 #   ignore:
 #     envs: ['development']
 
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
+#  
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
 
 # Shop
 collections:
