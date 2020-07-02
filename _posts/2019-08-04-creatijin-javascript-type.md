@@ -9,7 +9,7 @@ summary: 자바스크립트 타입에 대해서 알아보자
 ---
 # 타입
 
-##1.내장 타입
+## 1.내장 타입
 
 자바스크립트에는 7가지 내장 타입이 존재한다.
 
@@ -153,7 +153,7 @@ b; // Uncaught ReferenceError: b is not defined at <anonymous>:1:1
 
 b를 값을 확인했을때 'b is not defined'(b가 정의되지 않음)는 'undefiend'(정의되지 않은)과 같아 보일 수 있지만 의미가 완전 다르다.
 
-#####'b is not defined' —> 'b is not found' or 'b is not declared' 로 나온다면 이해하기 편했을텐데...
+##### 'b is not defined' —> 'b is not found' or 'b is not declared' 로 나온다면 이해하기 편했을텐데...
 
 여기서 한가지 더 헷갈리게 하는 부분이 있다. 선언되지 않은 'undefied' 변수의 typeof 연산자 값이다.
 

@@ -10,7 +10,7 @@ summary: javascript(Promise)
 
 # 리액트 프로젝트 - 03 (4) javascript(Promise)
 
-##Promise
+## Promise
 
 비동기 상태를 값으로 다룰 수 있는 객체이다.
 
@@ -43,7 +43,7 @@ function onSuccess2(data) {
 requestData1(onSuccess1); //(1)
 ```
 
-###Promise의 세가지 상태
+### Promise의 세가지 상태
 
 - 대기중(pending) - 결과를 기다리는 중
 - 이행됨(fulfilled) - 수행이 정상적으로 끝났고 결과값을 갖고 있음
@@ -51,9 +51,9 @@ requestData1(onSuccess1); //(1)
 
 이행,거부 상태를 처리(settled)상태라고 부른다. 프로미스는 **처리 상태가 되면 더 이상 다른 상태로 변경되지 않는다. 대기 중 상태일 때만 이행 또는 거부 상태로 변할 수 있다.**
 
-###Promise 생성하는 방법 3가지
+### Promise 생성하는 방법 3가지
 
-####new 키워드
+#### new 키워드
 
 ```javascript
 const p1 = new Promise((resolve, reject) => {

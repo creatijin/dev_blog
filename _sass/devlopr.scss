@@ -429,7 +429,7 @@ header {
     background-color: var(--main-background-color) !important;
     background-image: url('/assets/img/blog-cover.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -546,7 +546,7 @@ header {
 }
 
 .project-img {
-    width: 150px;
+    width: 100px;
     height: 100px;
 }
 

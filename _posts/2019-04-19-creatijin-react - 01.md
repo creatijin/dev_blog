@@ -51,11 +51,11 @@ UI 기능만 제공하기 때문에 **초보자들에게는 진입 장벽이 높
 
 
 
-##개발 환경 직접 구축하기
+## 개발 환경 직접 구축하기
 
 ### Hello World 페이지 만들기
 
-###1) Hello-word라는 파일을 만들고 아래 4개의 파일을 넣어준다
+### 1) Hello-word라는 파일을 만들고 아래 4개의 파일을 넣어준다
 
 1. https://unpkg.com/react@16.8.6/umd/react.development.js
 2. https://unpkg.com/react@16.8.6/umd/react.production.min.js
@@ -80,7 +80,7 @@ ES5 까지만 지원하는 브라우저에서 바벨을 이용하면 ES6문법 �
 
 리액트는 JSX 문법을 사용하기 위해 버벨을 사용한다. 바벨이 JSX 문법으로 작성된 코드를 createElement 함수를 호출하는 코드로 변환해 준다.
 
-####JSX 문법을 바벨로 컴파일하기
+#### JSX 문법을 바벨로 컴파일하기
 
 JSX는 **자바스크립트 표준 문법이 아니다.** 그렇기 때문에 바벨을 이용해서 JSX 문법으로 작성된 파일을 **createElement 함수로 작성된 파일로 변환**해야한다.
 
@@ -142,7 +142,7 @@ function Container() {
 
 
 
-##create-react-app 시작
+## create-react-app 시작
 
 create-react-app은 리액트로 **웹 어플리케이션**을 만들기 위한 환경을 제공한다. 만약 앱에 관심이 있다면 리엑트 네이티브를 사용해야한다.
 
