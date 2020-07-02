@@ -5,7 +5,7 @@ title: 리액트 프로젝트 - 01
 date: "2019-08-16T01:47:00.000Z"
 thumbnail: /assets/img/posts/react-posting-bg.jpg
 category: [React]
-summary: 리액트 프로젝트 - 01
+summary: 실전 리액트 프로그래밍
 ---
 
 # 리액트 프로젝트 시작

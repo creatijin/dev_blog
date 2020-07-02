@@ -1,11 +1,11 @@
 ---
-layout: post
 title: 리액트 프로젝트 - 03 (4) javascript(Promise)
+layout: post
 author: Creatijin
-category: ['React', 'javascript']
-thumbnail: /assets/img/posts/react-posting-bg.jpg
+category: [React, javascript]
+thumbnail: "/assets/img/posts/react-posting-bg.jpg"
 date: '2020-06-30T18:32:00.000Z'
-summary: 리액트 프로젝트 - 03 (4) javascript(Promise)
+summary: javascript(Promise)
 ---
 
 # 리액트 프로젝트 - 03 (4) javascript(Promise)

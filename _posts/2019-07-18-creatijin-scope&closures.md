@@ -5,7 +5,7 @@ author: Creatijin
 category: [javascript]
 thumbnail: /assets/img/posts/javascript-posting1-bg.jpg
 date: "2019-07-18T01:47:00.000Z"
-summary: 스코프와 클로저
+summary: 자바스크립트에서 중요한 부분인 스코프와 클로저
 ---
 
 

@@ -4,10 +4,8 @@ author: Creatijin
 title: 리액트 프로젝트 - 03 (2) javascript
 date: "2020-04-19T01:56:00.000Z"
 thumbnail: /assets/img/posts/react-posting-bg.jpg
-category:
-        - React
-        - javascript
-summary: 리액트 프로젝트 - 03 (2) javascript
+category: [React, javascript]
+summary: 객체와 배열
 ---
 
 

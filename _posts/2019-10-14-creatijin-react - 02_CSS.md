@@ -5,7 +5,7 @@ title: 리액트 프로젝트 - 02 (1) CSS
 date: "2019-10-14T11:43:00.000Z"
 thumbnail: /assets/img/posts/react-posting-bg.jpg
 category: [React]
-summary: 리액트 프로젝트 - 02 (1) CSS
+summary: React CSS
 ---
 
 # 리액트 프로젝트 - 02 (1) CSS

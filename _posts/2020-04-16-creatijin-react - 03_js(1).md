@@ -5,7 +5,7 @@ author: Creatijin
 category: ['React', 'javascript']
 thumbnail: /assets/img/posts/react-posting-bg.jpg
 date: '2020-04-16T18:32:00.000Z'
-summary: 리액트 프로젝트 - 03 (1) javascript
+summary: var, const, let
 ---
 
 

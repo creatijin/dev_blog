@@ -5,7 +5,7 @@ author: Creatijin
 category: ['React', 'javascript']
 thumbnail: /assets/img/posts/react-posting-bg.jpg
 date: '2020-04-30T17:41:00.000Z'
-summary: 리액트 프로젝트 - 03 (3) javascript
+summary: 함수, 화살표 함수
 ---
 
 # 리액트 프로젝트 - 03 (3) javascript

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 리액트 프로젝트 - 02 (1) CSS
+title: 리액트 프로젝트 - 02 (2) SPA
 author: Creatijin
 category: [React]
 thumbnail: /assets/img/posts/react-posting-bg.jpg
 date: "2019-10-14T11:43:00.000Z"
-summary: 리액트 프로젝트 - 02 (1) CSS
+summary: 단일 페이지 애플리케이션(Single page application)
 ---
 
 

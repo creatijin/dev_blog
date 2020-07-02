@@ -5,7 +5,7 @@ author: Creatijin
 category: [javascript]
 thumbnail: /assets/img/posts/javascript-posting-type.jpg
 date: "2019-08-04T04:47:00.000Z"
-summary: 자바스크립트 타입
+summary: 자바스크립트 타입에 대해서 알아보자
 ---
 # 타입
 

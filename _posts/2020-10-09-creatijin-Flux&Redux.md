@@ -5,7 +5,7 @@ title: Flux&Redux
 date: "2019-10-09T12:26:00.000Z"
 thumbnail: /assets/img/posts/react-posting-bg.jpg
 category: [Redux]
-summary: Flux&Redux
+summary: Flux&Redux 개념을 알아보자
 ---
 
 # Redux 소개 및 정리
