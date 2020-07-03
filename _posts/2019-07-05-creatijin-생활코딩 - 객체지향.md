@@ -2,7 +2,7 @@
 layout: post
 title: "Basic - OOP"
 author: Creatijin
-category: [OOP]
+category: [javascript]
 thumbnail: /assets/img/posts/basic-posting1-bg.jpg
 date: "2019-07-05T19:36:00.000Z"
 summary: Object-Oriented-Programing
