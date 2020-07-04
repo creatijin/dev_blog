@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Creatijin
-title: 리액트 프로젝트 - 01
+title: 리액트 프로젝트 - 01 시작
 date: "2019-08-16T01:47:00.000Z"
 thumbnail: /assets/img/posts/react-posting-bg.jpg
 category: [React]
