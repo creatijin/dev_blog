@@ -2,11 +2,11 @@
 title: Mob X & MST
 layout: post
 author: Creatijin
-category:
-- Conference
+category: [Conference]
 thumbnail: "/assets/img/posts/MobX_Logo.png"
 date: '2020-07-03 08:32:00'
 summary: MobX & MST - 편안한 State Management
+
 ---
 
 ## Mob X & MST

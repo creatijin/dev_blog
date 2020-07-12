@@ -2,8 +2,7 @@
 title: Typescript(1)
 layout: post
 author: Creatijin
-category:
-- Typescript
+category: [Typescript]
 thumbnail: "/assets/img/posts/typescript_Logo.png"
 date: '2020-07-03 08:32:00'
 summary: 타입스크립트 소개와 타입
@@ -250,3 +249,4 @@ enum WeekDay3 {
 }
 // 초깃값으로 하나의 속성을 설정했다면 다른 속성의 초깃값도 같아야 한다. (연산식은 할당할 수 없다.)
 ~~~
+
