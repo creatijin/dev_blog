@@ -128,4 +128,57 @@ function add(a:any, b:any) => {}
   console.log(nums[0]) // "one"
   ~~~
 
-  
+
+**타입스크립트에서 선언된 배열타입, 제네릭 배열 타입은 컴파일 시 타입 검사를위해 필요하며, 컴파일 후(ES5)에는 타입이 제거된 배열만 남는다.**
+
+
+
+####  튜플 타입(tuple type)
+
+n개의 요소로 이뤄진 배열에 대응하는 타입, 튜플은 배열과 비슷하지만, 배열은 배열 요소의 개수에 제한이 없고 string[ ]처럼 특정 타입으로 배열 요소의 타입을 강제할 수 있다. 하지만 튜플의 경우 배열 요소에 대응하는 n개에 대한 타입이다.
+
+~~~typescript
+// 배열 요소에 대응 하는 n개의 타입
+let y : [string, number] = ["tuple", 200];
+// string => "tuple", number => 200
+~~~
+
+**튜플에 선언된 타입 수와 할당될 배열의 요소 수가 정확히 일치돼야 할당이 가능해진다.**
+타입스크립트 2.7 이후부터 튜플 타입에 따라 할당 배열의 요소 수가 고정되었다. 그전 버전에서는 개수를 초과하면 유니언 타입으로 적용받았다.
+
+
+
+#### void, null, undefined
+
+- void - 함수의 반환값이 없을 때 지정하는 타입, null이나 undefined만 할당할 수 있다.(void 타입이 null과 undefined의 상위 타입이기 때문)
+
+~~~typescript
+function world(): void {
+  console.log("Hello, world");
+}
+// 반환값이 없는 함수
+let myWorld = world();
+// myWorld 변수는 void 타입으로 지정, void, undefined를 할당 할 수 있음
+// 반환 타입은 void 지만 반환값이 없으므로 undefined가 할당됨
+console.log(myWorld, typeof myWorld);
+// undefined, 'undefined'
+// void 타입은 null 또는 undefined만 할당할 수 있기 때문에 유영한 타입은 아니다.
+
+let empty;
+// empty에 할당된 값이 없기 때문에 undefined가 된다.
+~~~
+
+**변수를 선언할 때 값을 할당하지 않았음을 나타내기 위해 선언한 변수에 null을 할당하는 것은 권장하지 않는다.**
+Null과 undefined는 불필요한 선언이 되거나 초기화하지 않았을 때 불안정한 연산을 초래할 수 있다.
+그래서 컴파일러 옵션중에 사용하지 못하게 막는것이 가능하다.
+
+~~~typescript
+//tsconfig.json
+{
+  "compilerOptions": {
+    "strictNullChecks": true
+  }
+}
+// 기본적으로 변수에 할당되던 null과 undefined는 더 이상 할당되지 못하고 컴파일 오류가 발생한다.
+~~~
+
