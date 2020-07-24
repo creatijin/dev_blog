@@ -4,7 +4,7 @@ layout: post
 author: Creatijin
 category: [Typescript]
 thumbnail: "/assets/img/posts/typescript_Logo.png"
-date: '2020-07-08 08:00:00'
+date: '2020-07-25 01:00:00'
 summary: 타입스크립트 내장 타입
 ---
 
