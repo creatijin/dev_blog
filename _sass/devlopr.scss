@@ -103,12 +103,13 @@ html[data-theme="light"] {
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
 }
-
 * {
     margin: 0;
     padding: 0;
 }
-
+p img {
+    width: 100%;
+}
 ol,
 ul {
     margin-left: 30px !important;
