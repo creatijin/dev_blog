@@ -4,15 +4,16 @@ layout: post
 author: Creatijin
 category: [Typescript]
 thumbnail: "/assets/img/posts/typescript_Logo.png"
-date: '2020-07-25 01:00:00'
+date: '2020-07-25 08:00:00'
 summary: 타입스크립트 내장 타입
 ---
+
 
 # Typescript(2)
 
 ## 타입스크립트 내장 타입
 
-##any타입
+## any타입
 
 Any 타입은 제약이 없는 타입이다. 어떤 타입의 값도 받아들일 수 있다. any 타입은 최소한의 타입 검사만 수행한다. (자바스크립트의 최소한의 정적 타입 검사를 수행하는 것처럼)
 any는 확정된 타입이 아니기 때문에 어떠한 값이든 할당 가능하다. 이러한 점 때문에 유연한 대처가 가능하며 배열의 타입으로 사용하면 어떤 타입의 요소도 받아들일 수 있다.
