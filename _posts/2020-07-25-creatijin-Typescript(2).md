@@ -183,3 +183,23 @@ Null과 undefined는 불필요한 선언이 되거나 초기화하지 않았을 
 // 기본적으로 변수에 할당되던 null과 undefined는 더 이상 할당되지 못하고 컴파일 오류가 발생한다.
 ~~~
 
+####  undefined 와 null 의 차이
+
+~~~~typescript
+var testUndefined1;
+var testUndefined2:undefined = undefined;
+var testNull: null = null;
+//(1)
+console.log(testUndefined1 typeof testUndefined1); //undefined "undefined"
+console.log(testUndefined2 typeof testUndefined2); //undefined "undefined"
+console.log(testNull typeof testNull); //null "Object"
+//(2)
+console.log(null === undefined); //false
+console.log(null == undefined); //true
+console.log(undefined == undefined); //true
+~~~~
+
+(1)번에서 testUndefined1는 초기화 되지 않았다. 초기화되지 않았기 때문에 값을 출력하면 undefined가 출력된다. 하지만 null은 null 값이 할당되었고 타입을 확인해보면 Object가 된다.
+
+**undefined와 null은 둘다 구체적인 값이 없다. 값이 없는 점에서는 undefined나 null은 같다.** (2를 보면 타입까지 비교했을 경우 false가 나왔고 값만 비교했을때는 true가 나오는걸 볼 수 있다. **null과 undefined는 타입은 다르지만 값이 없는 점은 같다를 의미한다.**
+
