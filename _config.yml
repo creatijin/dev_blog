@@ -11,8 +11,8 @@ urls:
     url: /about
   - text: Blog
     url: /blog
-  # - text: Gallery
-  #   url: /gallery
+  - text: Gallery
+    url: /gallery
   # - text: Shop
   #   url: /shop
   # - text: Contact Me
@@ -32,19 +32,19 @@ author_location: Korea, Seoul
 author_website_url: "https://creatijin0124.netlify.app"
 typewrite-text: Creatijin Dev Blog 삽질로부터 성장하는 X찮은 개발 일기 :D
 
-# author_work_experiences:
-#   - company_name: Google
-#     company_logo: google.png
-#     company_url: https://google.com
-#     designation: Software Engineer
-#     description: Worked on various Google Products
-#     visibility: true
-#   - company_name: Microsoft
-#     company_logo: microsoft.png
-#     company_url: https://microsoft.com
-#     designation: Azure Developer
-#     description: Worked on various Azure Cloud Products
-#     visibility: true
+author_work_experiences:
+  - company_name: SPAAAADE
+    company_logo: spaaaadelogo.png
+    company_url: http://spadecompany.kr/
+    designation: Web Publishing
+    description: 웹 에이전시
+    visibility: true
+  - company_name: (주)창운코리아
+    company_logo: logo-cangyun-text.png
+    # company_url: https://microsoft.com
+    designation: Front-End Developer
+    description: 창운 코리아 데이터 사업부
+    visibility: true
 
 # author_education_details:
 #   - college_logo: mit.png
@@ -130,7 +130,7 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: "/category/:name/"
 
 # Shop
 collections:
