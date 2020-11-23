@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://creatijin0124.netlify.app/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/about/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/blog/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/typescript/2020/07/25/creatijin-typescript(2)/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/typescript/2020/07/03/creatijin-typescript(1)/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/conference/2020/07/03/creatijin-mobx-%EC%82%AC%EC%9A%A9%EA%B8%B0-%EC%A0%95%EB%A6%AC/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/react/javascript/2020/06/30/creatijin-react-03_js(4)/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/react/javascript/2020/04/30/creatijin-react-03_js(3)/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/react/javascript/2020/04/19/creatijin-react-03_js(2)/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/blog/page/2/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/blog/page/3/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/blog/page/4/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/blog/categories/javascript/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/blog/categories/react/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/blog/categories/redux/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/blog/categories/conference/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/blog/categories/typescript/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/react/javascript/2020/04/16/creatijin-react-03_js(1)/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/react/2019/10/14/creatijin-react-02_spa/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/react/2019/10/14/creatijin-react-02_css/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/redux/2019/10/09/creatijin-flux&amp;redux/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/react/2019/08/16/creatijin-react-01/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/javascript/2019/08/04/creatijin-javascript-type/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/javascript/2019/07/18/creatijin-scope&amp;closures/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/javascript/2019/07/08/creatijin-javascript-array/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/javascript/2019/07/08/creatijin-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/javascript/2019/07/08/creatijin-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-%EC%A2%8B%EC%9D%80-%EB%AC%B8%EB%B2%95%EB%93%A4/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/javascript/2019/07/08/creatijin-%ED%95%A8%EC%88%98/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/javascript/2019/07/08/creatijin-%EA%B0%9D%EC%B2%B4/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://creatijin0124.netlify.app/javascript/2019/07/05/creatijin-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5/</loc>
+  <lastmod>2020-11-23T20:27:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
