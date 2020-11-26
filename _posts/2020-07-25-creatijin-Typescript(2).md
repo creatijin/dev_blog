@@ -2,14 +2,14 @@
 title: Typescript(2)
 layout: post
 author: Creatijin
-category: [Typescript]
+category:
+- Typescript
 thumbnail: "/assets/img/posts/typescript_Logo.png"
 date: '2020-07-25 08:00:00'
 summary: 타입스크립트 내장 타입
 ---
 
-
-# Typescript(2)
+# Typescript(2-1)
 
 ## 타입스크립트 내장 타입
 
@@ -202,4 +202,3 @@ console.log(undefined == undefined); //true
 (1)번에서 testUndefined1는 초기화 되지 않았다. 초기화되지 않았기 때문에 값을 출력하면 undefined가 출력된다. 하지만 null은 null 값이 할당되었고 타입을 확인해보면 Object가 된다.
 
 **undefined와 null은 둘다 구체적인 값이 없다. 값이 없는 점에서는 undefined나 null은 같다.** (2를 보면 타입까지 비교했을 경우 false가 나왔고 값만 비교했을때는 true가 나오는걸 볼 수 있다. **null과 undefined는 타입은 다르지만 값이 없는 점은 같다를 의미한다.**
-
