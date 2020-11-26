@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Flutter
-permalink: /blog/categories/Flutter/
+layout: page
+permalink: "/blog/categories/Flutter/"
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
