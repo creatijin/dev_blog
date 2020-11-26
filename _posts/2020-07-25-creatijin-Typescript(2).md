@@ -9,7 +9,7 @@ date: '2020-07-25 08:00:00'
 summary: 타입스크립트 내장 타입
 ---
 
-# Typescript(2-1)
+# Typescript(2)
 
 ## 타입스크립트 내장 타입
 

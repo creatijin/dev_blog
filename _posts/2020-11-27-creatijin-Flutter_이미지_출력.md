@@ -1,10 +1,11 @@
 ---
-title: Flutter 이미지 출력
+title: Flutter이미지출력
 layout: post
 author: Creatijin
-category: [Flutter]
+category:
+- Flutter
 thumbnail: "/assets/img/posts/flutter-logo-sharing.png"
-date: "2020-11-27 02:53:00"
+date: '2020-11-27 02:53:00'
 summary: Flutter 이미지 출력
 ---
 
