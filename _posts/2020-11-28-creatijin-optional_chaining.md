@@ -1,5 +1,5 @@
 ---
-title: [ES2020]Optional Chaining ?.
+title: ES2020 Optional Chaining ?.
 layout: post
 author: Creatijin
 category:
@@ -7,10 +7,9 @@ category:
 thumbnail: "/assets/img/posts/javascript-posting-optionalchaining.jpg"
 date: "2020-11-28 06:06:00"
 summary: Optional Chaining ?.
-
 ---
 
-# [ES2020]Optional Chaining ?. 
+# ES2020 Optional Chaining ?.
 
 ES2020에 추가된 문법 Optional Chaining을 공부해보자
 
@@ -20,11 +19,11 @@ ES2020에 추가된 문법 Optional Chaining을 공부해보자
 let user = {
   name: {
     first: "jo",
-    last: "seungjin"
-  }
-}
-user.name.first // "jo"
-user.address.street //Uncaught TypeError: Cannot read property 'street' of undefined
+    last: "seungjin",
+  },
+};
+user.name.first; // "jo"
+user.address.street; //Uncaught TypeError: Cannot read property 'street' of undefined
 
 //&& 연산자로 해결
 user.address && user.address.street;
@@ -38,27 +37,25 @@ get(user, "address.street");
 
 ---
 
-
-
-## optional chaining의 등장 `?.` 
+## optional chaining의 등장 `?.`
 
 optional chaining `?.` 연산자는 체인의 참조 속성 값을 읽어 nullish 로 인해 에러가 발생하는 것 대신 표현식의 리턴 값은 `undefined`가 출력된다.
 
 ```javascript
 let user = {};
-user.address?.street //undefined
+user.address?.street; //undefined
 ```
 
-`?.` 로 에러가 발생하지 않고 undefined를 출력한다.  `user.address.street`에 접근하기 전에 `user.address`가 `null` 또는 `undefined` 가 아니라는 것을 암묵적으로 확인 하는 것을 알 수 있다.
+`?.` 로 에러가 발생하지 않고 undefined를 출력한다. `user.address.street`에 접근하기 전에 `user.address`가 `null` 또는 `undefined` 가 아니라는 것을 암묵적으로 확인 하는 것을 알 수 있다.
 
 **`?.` 연산자는 함수,배열에도 사용 가능하다.**
 
-~~~javascript
-let someInterface = () => {}
+```javascript
+let someInterface = () => {};
 let result = someInterface.customMethod?.(); // undefined
 let arr = [];
-arr?.[0] // undefined
-~~~
+arr?.[0]; // undefined
+```
 
 존재하지 않을 수 있는 메서드를 호출할 때 optional chaining을 사용할 수 있다.
 
@@ -66,13 +63,11 @@ arr?.[0] // undefined
 
 **`?.`은 `delete`와 함께 사용할 수 있다.**
 
-~~~javascript
-let user = {name:{}}
+```javascript
+let user = { name: {} };
 delete user?.name; // user가 존재한다면 user.name을 삭제
-user // {}
-~~~
-
-
+user; // {}
+```
 
 ---
 
@@ -91,18 +86,16 @@ user // {}
   ```javascript
   let user = null;
   let x = 0;
-  
+
   user?.bell(x++);
   alert(x); // 0
-  
+
   //x는 증가하지 않습니다.
   ```
 
-
-
 ## 마무리
 
-`?.`  연산자와 `.` 연산자는 유사하게 작동하지만 `?.` 는 그 속성이 존재하는 경우에만 chaining을 계속하고 존재하지 않는다면 `undefined`를 반환한다.
+`?.` 연산자와 `.` 연산자는 유사하게 작동하지만 `?.` 는 그 속성이 존재하는 경우에만 chaining을 계속하고 존재하지 않는다면 `undefined`를 반환한다.
 
 꼭 있어야 하는 값이지만 없는 경우에 `?.`을 사용하면 프로그래밍 에러를 쉽게 찾을 수 없으므로 이런 상황을 만들지 말도록 한다.
 
