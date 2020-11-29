@@ -5,7 +5,7 @@ author: Creatijin
 category:
   - javascript
 thumbnail: "/assets/img/posts/javascript-posting-optionalchaining.jpg"
-date: "2020-11-26 02:53:00"
+date: "2020-11-28 06:06:00"
 summary: Optional Chaining ?.
 
 ---
