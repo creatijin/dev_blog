@@ -41,30 +41,30 @@ author_work_experiences:
     visibility: true
   - company_name: (주)창운코리아
     company_logo: logo-cangyun-text.png
-    company_url: http://fegsports.com/kr/
+    company_url: https://www.cangyunkr.com/
     designation: Front-End Developer
     description: 창운 코리아 데이터 사업부
     visibility: true
 
 # author_education_details:
 #   - college_logo: mit.png
-#     college_name: MIT
+#     college_name:
 #     college_url: https://mit.org
 #     college_degree: CS Engineer
 #     description: Bachelor of Technology
 #     visibility: true
 
-# author_project_details:
-#   - project_thumbnail: gamershub.png
-#     project_title: Gamers Hub
-#     project_description: A Platform built for Gamers and Game Devs
-#     project_url: https://gamershub.in
-#     visibility: true
-#   - project_thumbnail: hack4r.PNG
-#     project_title: Hack4r
-#     project_description: A Platform built for Hackers and Penetration Testers
-#     project_url: https://hack4r.com
-#     visibility: true
+author_project_details:
+  - project_thumbnail: loglogo.png
+    project_title: Log
+    project_description: 게임 데이터를 활용한 웹 서비스
+    project_url: https://test.log.gg/
+    visibility: true
+  - project_thumbnail: profile.png
+    project_title: Creatijin Portfolio
+    project_description: 포트폴리오
+    project_url: https://creatijin-portfolio.netlify.app/
+    visibility: true
 
 # social links
 # twitter_username: johndoe
@@ -100,7 +100,7 @@ permalink: pretty
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
+show_author_education_details: false
 show_author_project_details: true
 
 # algolia search
