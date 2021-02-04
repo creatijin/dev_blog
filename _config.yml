@@ -60,7 +60,7 @@ author_project_details:
     project_description: 게임 데이터를 활용한 웹 서비스
     project_url: https://test.log.gg/
     visibility: true
-  - project_thumbnail: profile.png
+  - project_thumbnail: creatijin.jpg
     project_title: Creatijin Portfolio
     project_description: 포트폴리오
     project_url: https://creatijin-portfolio.netlify.app/
