@@ -5,7 +5,7 @@ author: Creatijin
 category:
   - javascript
 thumbnail: "/assets/img/posts/ssrcsr-posting-bgs.jpg"
-date: "2021-02-06 17:02:00"
+date: "2021-02-06 06:02:00"
 summary: SSR vs CSR 그리고 SPA, Isomorphic App, Next.js
 ---
 
